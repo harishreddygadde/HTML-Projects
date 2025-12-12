@@ -1,0 +1,55 @@
+Project - Event Registration Form
+Goal: Create a registration form for a fictional event (like a conference, workshop, or webinar) using HTML. Follow the instructions carefully and make sure each feature is included.
+
+Instructions
+
+1. Create the Form Container
+
+Use the <form> element to wrap all your inputs.
+2. Add User Information Inputs
+
+Full Name:
+
+Use <input type="text">
+Add name="fullname"
+Include a placeholder like "Enter your full name"
+Make it required.
+Email Address:
+
+Use <input type="email">
+Add name="email" and placeholder="Enter your email"
+Make it required.
+Password:
+
+Use <input type="password">
+Add name="password" and a placeholder.
+3. Add Choice Inputs
+
+Gender (radio buttons):
+
+Create at least 3 options: Male, Female, Other
+Use name="gender" for all radio buttons so only one can be selected.
+Set value for each option.
+Interests (checkboxes):
+
+Include at least 3 topics like AI, Web Development, Data Science.
+Use name="interests" and value for each checkbox.
+Experience Level (dropdown/select):
+
+Use <select> with <option> for Beginner, Intermediate, Advanced.
+Include a default option like "Select your level".
+Favorite Session (autocomplete/datalist):
+
+Use <input list> with id
+Add <datalist> with at least 4 session options.
+4. Add Multiline Input
+
+About Yourself:
+Use <textarea> with rows="4"
+Include a placeholder like "Tell us about yourself".
+5. Add the Submit Button
+
+Use <input type="submit" value="Register"> to allow form submission.
+6. Optional Enhancements
+
+Add <label> for each input for better accessibility.

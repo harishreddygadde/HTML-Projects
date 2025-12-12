@@ -1,0 +1,28 @@
+You need to create a Recipe Webpage using only the following HTML tags:
+
+Headings: <h1> to <h6>
+Paragraph: <p>
+Line break: <br>
+Horizontal rule: <hr>
+Text formatting: <strong>, <b>, <em>, <i>, <mark>
+Lists: <ul>, <ol>, <li>
+Requirements
+
+Page Title: At the top of the page, display the recipe name using <h1>.
+Introduction
+Add a short description of the recipe inside a <p> tag.
+Use <br> to show Prep Time and Cook Time on separate lines.
+Ingredients Section
+Add a section heading using <h2> called “Ingredients”.
+List at least 5 ingredients using an unordered list (<ul>).
+Use <mark> to highlight any optional ingredient.
+Steps Section
+Add a section heading using <h2> called “Steps”.
+Write 4 or more steps in an ordered list (<ol>).
+Use <em> and <strong> within steps to emphasize important actions.
+Use <b> or <i> at least once to compare with <strong> and <em>.
+Tips Section
+Add a <h3> heading for “Tips”.
+Write a small paragraph with at least one <i> and one <em> for emphasis.
+Section Separation
+Use <hr> to separate Ingredients, Steps, and Tips sections.

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration Form</title>
+</head>
+<body>
+
+    <h1>Event Registration Form</h1>
+
+    <form>
+        <!-- User Information -->
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+        <br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+        <br><br>
+
+        <!-- Gender (Radio Buttons) -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <!-- Interests (Checkboxes) -->
+        <label>Interests:</label><br>
+        <input type="checkbox" id="ai" name="interests" value="AI">
+        <label for="ai">AI</label>
+        <input type="checkbox" id="webdev" name="interests" value="Web Development">
+        <label for="webdev">Web Development</label>
+        <input type="checkbox" id="datasci" name="interests" value="Data Science">
+        <label for="datasci">Data Science</label>
+        <br><br>
+
+        <!-- Experience Level (Dropdown) -->
+        <label for="level">Experience Level:</label><br>
+        <select id="level" name="level">
+            <option value="">Select your level</option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+        </select>
+        <br><br>
+
+        <!-- Favorite Session (Datalist) -->
+        <label for="session">Favorite Session:</label><br>
+        <input list="sessions" id="session" name="session" placeholder="Choose a session">
+        <datalist id="sessions">
+            <option value="AI in Healthcare">
+            <option value="Web 3.0 Development">
+            <option value="Data Science with Python">
+            <option value="Cloud Computing Basics">
+        </datalist>
+        <br><br>
+
+        <!-- Multiline Input -->
+        <label for="about">About Yourself:</label><br>
+        <textarea id="about" name="about" rows="4" placeholder="Tell us about yourself"></textarea>
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
