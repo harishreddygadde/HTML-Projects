@@ -1,0 +1,21 @@
+* {
+    font-size: 14px;
+}
+
+#user-name {
+    color: blue;
+    font-size: 24px;
+}
+.user-title {
+    color: gray;
+    font-size: 18px;
+}
+
+ul, li {
+    font-size: 16px;
+}
+
+li {
+    color: green;
+}
+

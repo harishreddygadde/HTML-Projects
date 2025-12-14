@@ -1,0 +1,21 @@
+Goal: Using the style.css file, apply CSS to the provided HTML to create a visually appealing personal profile card.
+
+Instructions: Style All Elements and Specific Selectors in style.css
+
+Style All Elements:
+Use the universal selector *
+Set font-size: 14px as a base size for everything
+Style the Name:
+Use the #user-name ID selector
+Set color: blue
+Set font-size: 24px
+Style the Job Title:
+Use the .user-title class selector
+Set color: gray
+Set font-size: 18px
+Style List Elements Using Grouping:
+Use grouping selectors: ul, li (separated by comma)
+Set font-size: 16px for both elements
+Style List Items Color:
+Use the li element selector
+Set color: green
